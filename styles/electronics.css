@@ -1,0 +1,183 @@
+@font-face {
+    font-family: segeo;
+    src: url("../fonts/segeo.ttf");
+}
+
+* {
+    font-family: segeo;
+}
+
+.header-info {
+    padding: 20px;
+}
+
+.navbar-default {
+    border: none;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > a:hover {
+
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    background: green;
+}
+
+.navigation {
+    background-color: red;
+}
+
+.slider {
+    height: 500px;
+    background-image: url('http://www.pinnacleadventure.co.uk/perch/resources/bg1small-1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.products
+{
+
+}
+
+.products .products-list
+{
+    margin-top:10px;
+    height: 250px;
+    display: block;
+    cursor: pointer;
+}
+
+.products .products-list:hover .products-list-description
+{
+    visibility: visible;
+    margin-top: -250px;
+}
+
+.products .products-list .products-list-description
+{
+    position: absolute;
+    z-index: 1000;
+    margin-left: 20px;
+    visibility: hidden;
+    transition:margin-top 1s ease;
+}
+
+
+.index-about {
+    height: 500px;
+    margin-top: 50px;
+    background-image: url('http://images.apple.com/ca/macbook-air/images/overview_wireless_hero_enhanced.png');
+    /*background-attachment: fixed;*/
+    background-size: cover;
+}
+
+.index-about .index-about-contents {
+    text-align: center;
+    padding: 150px;
+}
+
+
+
+
+
+
+
+
+.new-products {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.list-item {
+    overflow: hidden;
+    margin: 0 15px;
+}
+
+.list-item .list-thumb {
+    overflow: hidden;
+}
+
+.list-item .list-thumb .title {
+    background-color: #9ed034;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+    height: 50px;
+    text-align: center;
+}
+
+.list-item .list-thumb .title h4 {
+    color: #fff;
+    line-height: 50px;
+}
+
+.list-item .list-thumb img {
+    width: 100%;
+}
+
+.list-item .list-content h5 {
+    color: #9ed034;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 15px 0 5px 0;
+}
+
+.list-item .list-content span {
+    color: #e54747;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0 0 15px 0;
+}
+
+.list-item .list-content a.price-btn {
+    display: block;
+    background-color: #9ed034;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.list-item .list-content a.price-btn:hover {
+    background-color: #90be2c;
+}
+
+.owl-next,.owl-prev {
+    display: none;
+}
+
+.btn-custom {
+    display: block;
+    background-color: #286090;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 15px;
+    width: 270px;
+}
+
+
+
+
+
+
+
+.footer
+{
+    background-color: #F4F4F4;
+    min-height: 300px;
+    margin-top: 10px;
+}
