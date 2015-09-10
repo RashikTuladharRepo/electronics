@@ -5,29 +5,9 @@
 
 * {
     font-family: segeo;
+    margin: 0 auto;
 }
 
-.header-info {
-    padding: 20px;
-}
-
-.navbar-default {
-    border: none;
-}
-
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > a:hover {
-
-}
-
-.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
-    background: green;
-}
-
-.navigation {
-    background-color: red;
-}
 
 .slider {
     height: 500px;
@@ -39,11 +19,9 @@
 
 
 
-
-
 .products
 {
-
+    position: relative;
 }
 
 .products .products-list
@@ -156,28 +134,24 @@
     display: none;
 }
 
-.btn-custom {
-    display: block;
-    background-color: #286090;
-    color: #fff;
-    padding: 12px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 700;
-    margin-top: 15px;
-    width: 270px;
-}
-
-
-
-
-
 
 
 .footer
 {
     background-color: #F4F4F4;
-    min-height: 300px;
+    min-height: 250px;
     margin-top: 10px;
+}
+
+
+.footer-center ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-center ul li
+{
+    text-align: left;
+    list-style: none;
 }

@@ -6,7 +6,7 @@ $base_url = $gs->home_base_url();
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8" /
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <title>Electronics Suppliers</title>
     <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>styles/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>styles/font-awesome.css">
@@ -14,26 +14,6 @@ $base_url = $gs->home_base_url();
     <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>styles/templatemo_misc.css">
 </head>
 <body>
-
-<!--header info-->
-<div class="container-fluid header-info">
-    <div class="container">
-        <div class="col-md-6">
-            <a href="javascript:void(0);"><i class="fa fa-user"></i> About Us</a>
-            <span>|</span>
-            <a href="javascript:void(0);"><i class="fa fa-phone"></i> Contact</a>
-        </div>
-        <div class="col-md-6 text-right">
-            <div class="col-md-6">
-                <i class="fa fa-mobile-phone"></i> +977-1-9841111111
-            </div>
-            <div class="col-md-6">
-                <i class="fa fa-envelope"></i> info@electronics.com
-            </div>
-        </div>
-    </div>
-</div>
-<!--header info-->
 
 <!--navigation-->
 <div class="container-fluid">
@@ -87,7 +67,7 @@ $base_url = $gs->home_base_url();
 <!--products-->
 <div class="container-fluid products">
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
             <div class="products-list">
                 <img src="<?php echo $base_url; ?>images/p1.jpg" class="img-rounded img-responsive" alt="product" title="Product">
                 <div class="products-list-description">
@@ -96,7 +76,7 @@ $base_url = $gs->home_base_url();
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
             <div class="products-list">
                 <img src="<?php echo $base_url; ?>images/p2.jpg" class="img-responsive" alt="product" title="Product">
                 <div class="products-list-description">
@@ -105,7 +85,7 @@ $base_url = $gs->home_base_url();
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
             <div class="products-list">
                 <img src="<?php echo $base_url; ?>images/p3.jpg" class="img-responsive" alt="product" title="Product">
                 <div class="products-list-description">
@@ -114,7 +94,7 @@ $base_url = $gs->home_base_url();
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
             <div class="products-list">
                 <img src="<?php echo $base_url; ?>images/p4.jpg" class="img-responsive" alt="product" title="Product">
                 <div class="products-list-description">
@@ -123,7 +103,7 @@ $base_url = $gs->home_base_url();
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
             <div class="products-list">
                 <img src="<?php echo $base_url; ?>images/p5.jpg" class="img-responsive" alt="product" title="Product">
                 <div class="products-list-description">
@@ -132,7 +112,7 @@ $base_url = $gs->home_base_url();
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
             <div class="products-list">
                 <img src="<?php echo $base_url; ?>images/p6.jpg" class="img-responsive" alt="product" title="Product">
                 <div class="products-list-description">
@@ -224,7 +204,6 @@ $base_url = $gs->home_base_url();
                             <div class="list-content">
                                 <h5>Mumolas OPAC</h5>
                                 <span>Mumolas OPAC</span>
-                                <a href="#" class="btn-custom">Know More</a>
                             </div>
                         </div>
                     </div>
@@ -251,23 +230,12 @@ $base_url = $gs->home_base_url();
             </div>
             <div class="col-md-4">
                 <h2>Shop</h2>
-
-                <div class="col-md-6">
-                    <ul>
-                        <li>New Products</li>
-                        <li>Top Sellers</li>
-                        <li>Our Stores</li>
-                        <li>Contact Us</li>
-                        <li>About Us</li>
-                        <li>Visit Us</li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <li>TV / Computer</li>
-                    <li>Hardwares</li>
-                    <li>Gadgets</li>
-                    <li>Camera</li>
-                </div>
+                New Products<br>
+                Top Sellers<br>
+                Our Stores<br>
+                Contact Us<br>
+                About Us<br>
+                Visit Us
             </div>
             <div class="col-md-4">
                 <h2>Subscribe</h2>
@@ -288,7 +256,7 @@ $base_url = $gs->home_base_url();
         </div>
     </div>
 </div>
-<div class="container"><p class="text-center">Copyrights &copy; 2015</p></div>
+<div class="container-fluid" style="background-color: #F4F4F4;"><p class="text-center">Copyrights &copy; 2015</p></div>
 <!--footer-->
 
 <script type="text/javascript" src="<?php echo $base_url; ?>scripts/jquery-1.9.1.min.js"></script>
@@ -299,7 +267,7 @@ $base_url = $gs->home_base_url();
     jQuery(document).ready(function ($) {
         'use strict';
         $(".our-listing").owlCarousel({
-            items: 4,
+            items: 3,
             navigation: true,
             autoPlay: 5000,
             slideSpeed: 200,
