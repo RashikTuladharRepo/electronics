@@ -1,3 +1,4 @@
+<!--test for update-->
 <?php
 include "lib/Getstatic.php";
 $gs = new Getstatic();
