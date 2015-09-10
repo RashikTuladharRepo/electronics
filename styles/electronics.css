@@ -8,6 +8,94 @@
     margin: 0 auto;
 }
 
+#cover {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #FFF;
+    z-index: 9999;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+}
+
+#cover img
+{
+    top: 0;
+}
+
+.social{
+    margin-top: 20px;
+}
+
+.social-icon
+{
+    width: 40px;
+    height: 40px;
+    background: #DDD;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    color:#5e5e5e;
+}
+
+.facebook-hover:hover
+{
+    background:#46629E;
+    color:#FFF;
+    cursor: pointer;
+}
+
+.google-hover:hover
+{
+    background:#EA4436;
+    color:#FFF;
+    cursor: pointer;
+}
+
+.twitter-hover:hover
+{
+    background:#0FB1F2;
+    color:#FFF;
+    cursor: pointer;
+}
+
+
+
+.header .navbar.navbar-default.navbar-static-top{
+    margin-bottom: 0px;
+    height: 70px;
+}
+
+.header .navbar.navbar-default .navbar-header .navbar-brand{
+    line-height: 40px
+}
+.header .navbar.navbar-default .nav.navbar-nav li a{
+    line-height: 40px;
+    font-size: 16px;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -ms-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s;
+}
+.header .navbar.navbar-default .nav.navbar-nav li.active a{
+    background: #1E90FF;
+    color:#FFF;
+}
+.header .navbar.navbar-default .nav.navbar-nav li a:hover{
+    background: #1E90FF;
+    color:#FFF;
+}
+
+
+
+
+
+
 
 .slider {
     height: 500px;
@@ -19,23 +107,33 @@
 
 
 
+
+
+
+
+
+
 .products
 {
-    position: relative;
 }
 
 .products .products-list
 {
     margin-top:10px;
-    height: 250px;
+    position: relative;
     display: block;
     cursor: pointer;
+}
+
+.products .products-list img
+{
+    width: 100%;
 }
 
 .products .products-list:hover .products-list-description
 {
     visibility: visible;
-    margin-top: -250px;
+    top: 10px;
 }
 
 .products .products-list .products-list-description
@@ -43,9 +141,28 @@
     position: absolute;
     z-index: 1000;
     margin-left: 20px;
+    top: 0px;
     visibility: hidden;
-    transition:margin-top 1s ease;
+    transition:top 1s ease;
 }
+
+.products .products-list .products-list-description a
+{
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .index-about {
@@ -60,6 +177,11 @@
     text-align: center;
     padding: 150px;
 }
+
+
+
+
+
 
 
 
@@ -136,6 +258,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 .footer
 {
     background-color: #F4F4F4;
@@ -143,6 +275,12 @@
     margin-top: 10px;
 }
 
+.footer hr
+{
+    border-color: #333;
+    opacity: 0.3;
+    width: 900px;
+}
 
 .footer-center ul {
     list-style: none;

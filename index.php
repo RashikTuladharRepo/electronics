@@ -5,56 +5,45 @@ $base_url = $gs->home_base_url();
 ?>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
     <title>Electronics Suppliers</title>
     <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>styles/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>styles/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>styles/electronics.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>styles/templatemo_misc.css">
+    <style type="text/css">
+
+    </style>
 </head>
 <body>
 
+<div id="cover"><img src="http://www.slate.com/content/dam/slate/blogs/future_tense/2015/09/01/google_s_new_animated_logo_is_the_future_of_mobile_branding/google_logo.gif.CROP.original-original.gif" class="img-responsive"></div>
+
 <!--navigation-->
-<div class="container-fluid">
-    <div class="container">
-        <nav role="navigation" class="navbar navbar-default">
-            <!-- Brand and toggle get grouped for better mobile display -->
+<div class="header">
+    <div class="navbar navbar-default navbar-static-top">
+        <div class="container">
             <div class="navbar-header">
-                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="#" class="navbar-brand">Brand</a>
+                <a class="navbar-brand" href="#">rashik.com.np</a>
             </div>
-            <!-- Collection of nav links, forms, and other content for toggling -->
-            <div id="navbarCollapse" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Profile</a></li>
-                    <li class="dropdown">
-                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">Messages <b class="caret"></b></a>
-                        <ul role="menu" class="dropdown-menu">
-                            <li><a href="#">Inbox</a></li>
-                            <li><a href="#">Drafts</a></li>
-                            <li><a href="#">Sent Items</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Trash</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <form role="search" class="navbar-form navbar-left">
-                    <div class="form-group">
-                        <input type="text" placeholder="Search" class="form-control">
-                    </div>
-                </form>
+            <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Login</a></li>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </div>
-        </nav>
+            <!--/.nav-collapse -->
+        </div>
     </div>
 </div>
 <!--navigation-->
@@ -69,55 +58,68 @@ $base_url = $gs->home_base_url();
     <div class="row">
         <div class="col-md-4 col-sm-6">
             <div class="products-list">
-                <img src="<?php echo $base_url; ?>images/p1.jpg" class="img-rounded img-responsive" alt="product" title="Product">
+                <img src="<?php echo $base_url; ?>images/p1.jpg" class="img-rounded img-responsive" alt="product"
+                     title="Product">
+
                 <div class="products-list-description">
                     <h4>Iphone 7</h4>
                     <h5>The Best Smart Phone In Town</h5>
+                    <a href="javascript:void(0);" class="btn btn-primary">Get Details</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4 col-sm-6">
             <div class="products-list">
                 <img src="<?php echo $base_url; ?>images/p2.jpg" class="img-responsive" alt="product" title="Product">
+
                 <div class="products-list-description">
                     <h4>Mac Book Air</h4>
                     <h5>What To Have Next!</h5>
+                    <a href="javascript:void(0);" class="btn btn-primary">Get Details</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4 col-sm-6">
             <div class="products-list">
                 <img src="<?php echo $base_url; ?>images/p3.jpg" class="img-responsive" alt="product" title="Product">
+
                 <div class="products-list-description">
                     <h4>Nikon D2300</h4>
                     <h5>Get The Best Shot!</h5>
+                    <a href="javascript:void(0);" class="btn btn-primary">Get Details</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4 col-sm-6">
             <div class="products-list">
                 <img src="<?php echo $base_url; ?>images/p4.jpg" class="img-responsive" alt="product" title="Product">
+
                 <div class="products-list-description">
                     <h4>Apple Watch</h4>
                     <h5>Be Smart!</h5>
+                    <a href="javascript:void(0);" class="btn btn-primary">Get Details</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4 col-sm-6">
             <div class="products-list">
                 <img src="<?php echo $base_url; ?>images/p5.jpg" class="img-responsive" alt="product" title="Product">
+
                 <div class="products-list-description">
                     <h4>Samsung Galaxy S6</h4>
                     <h5>Next Generation Smart Phone!</h5>
+                    <a href="javascript:void(0);" class="btn btn-primary">Get Details</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4 col-sm-6">
             <div class="products-list">
                 <img src="<?php echo $base_url; ?>images/p6.jpg" class="img-responsive" alt="product" title="Product">
+
                 <div class="products-list-description">
                     <h4>Google Chrome Book</h4>
                     <h5>Love Google!</h5>
+                    <a href="javascript:void(0);" class="btn btn-primary">Get Details</a>
                 </div>
             </div>
         </div>
@@ -230,12 +232,25 @@ $base_url = $gs->home_base_url();
             </div>
             <div class="col-md-4">
                 <h2>Shop</h2>
-                New Products<br>
-                Top Sellers<br>
-                Our Stores<br>
-                Contact Us<br>
-                About Us<br>
-                Visit Us
+
+                <div class="row">
+                    <div class="col-md-6">
+                        New Products<br>
+                        Top Sellers<br>
+                        Our Stores<br>
+                        Contact Us<br>
+                        About Us<br>
+                        Visit Us
+                    </div>
+                    <div class="col-md-6">
+                        New Products<br>
+                        Top Sellers<br>
+                        Our Stores<br>
+                        Contact Us<br>
+                        About Us<br>
+                        Visit Us
+                    </div>
+                </div>
             </div>
             <div class="col-md-4">
                 <h2>Subscribe</h2>
@@ -247,14 +262,15 @@ $base_url = $gs->home_base_url();
                     <a type="submit" class="btn btn-success"><i class="fa fa-envelope"></i> Subscribe</a>
                 </form>
 
-                <div>
-                    <i class="fa fa-facebook"></i>
-                    <i class="fa fa-twitter"></i>
-                    <i class="fa fa-google"></i>
+                <div class="social">
+                    <i class="fa fa-facebook social-icon facebook-hover"></i>
+                    <i class="fa fa-twitter social-icon twitter-hover"></i>
+                    <i class="fa fa-google social-icon google-hover"></i>
                 </div>
             </div>
         </div>
     </div>
+    <hr>
 </div>
 <div class="container-fluid" style="background-color: #F4F4F4;"><p class="text-center">Copyrights &copy; 2015</p></div>
 <!--footer-->
@@ -274,6 +290,12 @@ $base_url = $gs->home_base_url();
             navigationText: ["&larr;", "&rarr;"],
         });
     });
+
+
+    $(window).on('load', function () {
+        $("#cover").fadeOut(200);
+    });
+
 </script>
 </body>
 </html>
