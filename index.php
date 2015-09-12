@@ -6,20 +6,41 @@ $base_url = $gs->home_base_url();
 ?>
 <html>
 <head>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
     <title>Electronics Suppliers</title>
+    <link rel="shortcut icon" type="image/png" href="images/logo.png"/>
+
     <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>styles/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>styles/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>styles/electronics.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>styles/templatemo_misc.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>styles/hover.css">
+    <link rel='stylesheet' id='camera-css'  href='styles/camera.css' type='text/css' media='all'>
     <style type="text/css">
 
     </style>
 </head>
-<body>
+<body id="top">
 
-<div id="cover"><img src="http://www.slate.com/content/dam/slate/blogs/future_tense/2015/09/01/google_s_new_animated_logo_is_the_future_of_mobile_branding/google_logo.gif.CROP.original-original.gif" class="img-responsive"></div>
+<a href="#top"><div class="back-to-top"><i class="fa fa-angle-up"></i></div></a>
+<div id="cover">
+    <img src="images/preload.GIF" class="img-responsive">
+    <img src="images/loading.GIF" class="img-responsive">
+    <p class="text-primary font14">Please Wait For A While Untill The Contents Fully Loads.</p>
+</div>
+
+
+<div class="container-fluid header-contact-info">
+    <div class="container header-contact-info-contents">
+        <div class="row pull-right">
+            <span><i class="fa fa-phone"></i> +977-1-44010101</span>
+            <span><i class="fa fa-envelope"></i> info@electronicsales.com</span>
+        </div>
+    </div>
+</div>
 
 <!--navigation-->
 <div class="header">
@@ -33,14 +54,14 @@ $base_url = $gs->home_base_url();
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">rashik.com.np</a>
+                <a class="navbar-brand hvr-wobble-bottom" href="#"></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li class="active"><a href="#" class="hvr-push">Home</a></li>
+                    <li><a href="#" class="hvr-push">About</a></li>
+                    <li><a href="#" class="hvr-push">Service</a></li>
+                    <li><a href="#" class="hvr-push">Contact</a></li>
                 </ul>
             </div>
             <!--/.nav-collapse -->
@@ -51,6 +72,11 @@ $base_url = $gs->home_base_url();
 
 <!--slider-->
 <div class="container-fluid slider">
+    <div class="slider-contents">
+        You Won't Like To Miss The Chance!<br>
+        Best Price You Will Find In The Market!<br>
+        <a class="btn btn-primary font18">View The Offer!</a>
+    </div>
 </div>
 <!--slider-->
 
@@ -128,6 +154,29 @@ $base_url = $gs->home_base_url();
 </div>
 <!--products-->
 
+
+<!--special offers-->
+<div class="container-fluid offers">
+    <div class="row">
+        <div class="col-md-12 section-title">
+            <h1 class="text-center"><i class="fa fa-thumbs-o-up"></i> Offers & Special Discounts
+                <small>Take The Advantage!</small>
+            </h1>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="offers-list">
+                <img src="<?php echo $base_url; ?>images/p1.jpg" class="img-responsive" alt="product"
+                     title="Product">
+                <div class="offers-list-description">
+                    <h4>Iphone 7</h4>
+                    Special Discount
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--special offers-->
+
 <!--index-about-->
 <div class="container-fluid index-about">
     <div class="index-about-contents">
@@ -146,7 +195,7 @@ $base_url = $gs->home_base_url();
             <!--carousel-->
             <div class="container">
                 <div class="col-md-12 section-title">
-                    <h1 class="text-center"><i class="fa fa-tachometer"></i> New Products
+                    <h1 class="text-center"><i class="fa fa-shopping-cart"></i> New Products
                         <small>Might Interest You!</small>
                     </h1>
                 </div>
@@ -161,9 +210,12 @@ $base_url = $gs->home_base_url();
                                 <img src="images/p1.jpg" class="img-responsive" alt="destination 2">
                             </div>
                             <div class="list-content">
-                                <h5>Mumolas OPAC</h5>
-                                <span>Mumolas OPAC</span>
-                                <a href="#" class="btn-custom">Know More</a>
+                                <h5>Iphone 7</h5>
+                                <span>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                </span>
+                                <br>
+                                <a href="#" class="btn-custom">Know More &raquo;</a>
                             </div>
                         </div>
 
@@ -172,9 +224,12 @@ $base_url = $gs->home_base_url();
                                 <img src="images/p2.jpg" class="img-responsive" alt="destination 2">
                             </div>
                             <div class="list-content">
-                                <h5>Mumolas OPAC</h5>
-                                <span>Mumolas OPAC</span>
-                                <a href="#" class="btn-custom">Know More</a>
+                                <h5>Mac Book Air</h5>
+                                <span>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                </span>
+                                <br>
+                                <a href="#" class="btn-custom">Know More &raquo;</a>
                             </div>
                         </div>
 
@@ -183,9 +238,12 @@ $base_url = $gs->home_base_url();
                                 <img src="images/p3.jpg" class="img-responsive" alt="destination 2">
                             </div>
                             <div class="list-content">
-                                <h5>Mumolas OPAC</h5>
-                                <span>Mumolas OPAC</span>
-                                <a href="#" class="btn-custom">Know More</a>
+                                <h5>Nikon D2300</h5>
+                                <span>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                </span>
+                                <br>
+                                <a href="#" class="btn-custom">Know More &raquo;</a>
                             </div>
                         </div>
 
@@ -194,9 +252,12 @@ $base_url = $gs->home_base_url();
                                 <img src="images/p4.jpg" class="img-responsive" alt="destination 2">
                             </div>
                             <div class="list-content">
-                                <h5>Mumolas OPAC</h5>
-                                <span>Mumolas OPAC</span>
-                                <a href="#" class="btn-custom">Know More</a>
+                                <h5>Apple Watch</h5>
+                                <span>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                </span>
+                                <br>
+                                <a href="#" class="btn-custom">Know More &raquo;</a>
                             </div>
                         </div>
 
@@ -205,8 +266,12 @@ $base_url = $gs->home_base_url();
                                 <img src="images/p5.jpg" class="img-responsive" alt="destination 2">
                             </div>
                             <div class="list-content">
-                                <h5>Mumolas OPAC</h5>
-                                <span>Mumolas OPAC</span>
+                                <h5>Samsung Galaxy S6</h5>
+                                <span>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                </span>
+                                <br>
+                                <a href="#" class="btn-custom">Know More &raquo;</a>
                             </div>
                         </div>
                     </div>
@@ -223,7 +288,7 @@ $base_url = $gs->home_base_url();
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <div>
+                <div class="text-justify">
                     <h2>Your Shop</h2>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
@@ -260,13 +325,13 @@ $base_url = $gs->home_base_url();
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Please Enter Your Email!">
                     </div>
-                    <a type="submit" class="btn btn-success"><i class="fa fa-envelope"></i> Subscribe</a>
+                    <a type="submit" class="btn btn-success hvr-shadow"><i class="fa fa-envelope"></i> Subscribe</a>
                 </form>
 
                 <div class="social">
-                    <i class="fa fa-facebook social-icon facebook-hover"></i>
-                    <i class="fa fa-twitter social-icon twitter-hover"></i>
-                    <i class="fa fa-google social-icon google-hover"></i>
+                    <i class="social-icon facebook-hover hvr-float-shadow"><i class="fa fa-facebook"></i></i>
+                    <i class="social-icon twitter-hover hvr-float-shadow"><i class="fa fa-twitter"></i></i>
+                    <i class="social-icon google-hover hvr-float-shadow"><i class="fa fa-google"></i></i>
                 </div>
             </div>
         </div>
@@ -275,6 +340,8 @@ $base_url = $gs->home_base_url();
 </div>
 <div class="container-fluid" style="background-color: #F4F4F4;"><p class="text-center">Copyrights &copy; 2015</p></div>
 <!--footer-->
+
+
 
 <script type="text/javascript" src="<?php echo $base_url; ?>scripts/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="<?php echo $base_url; ?>scripts/bootstrap.min.js"></script>
@@ -292,11 +359,21 @@ $base_url = $gs->home_base_url();
         });
     });
 
-
     $(window).on('load', function () {
         $("#cover").fadeOut(200);
     });
 
+    $(window).on('scroll', function() {
+        var y_scroll_pos = window.pageYOffset;
+        var scroll_pos_test = 100;
+        if(y_scroll_pos > scroll_pos_test) {
+            $('.back-to-top').fadeIn();
+        }
+        else
+        {
+            $('.back-to-top').fadeOut();
+        }
+    });
 </script>
 </body>
 </html>
